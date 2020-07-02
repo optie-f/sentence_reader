@@ -1,12 +1,12 @@
 {
   "name": "sentence reader",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "句点/ピリオドまたは読点/カンマ単位で文章を読むための拡張",
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["main.js"]
+      "js": ["content_scripts.js"]
     }
   ]
 }
